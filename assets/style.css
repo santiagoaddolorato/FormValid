@@ -18,7 +18,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
+  padding: 10px;
   background: #171719;
   z-index: 1;
 }
@@ -45,6 +45,7 @@ main {
 .content__text h1 {
   font-size: 3rem;
   font-weight: 600;
+  
 }
 
 .content__text {
@@ -90,6 +91,7 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-top: 200px;
 }
 
 .footer__nav__link {
@@ -102,9 +104,12 @@ footer {
 }
 
 .footer__text {
-  padding-top: 40px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .footer__text--strong {
   font-weight: 800;
+  
+  
 }
